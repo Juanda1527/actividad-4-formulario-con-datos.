@@ -1,0 +1,24 @@
+/* Estilos para la página "Contáctenos" */
+#contacto {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la información de contacto */
+#contacto p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el mapa (si se agrega un mapa) */
+#mapa {
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/styles-nuestra-tienda.css">
+    <link rel="stylesheet" href="/css/styles-servicios.css">
+    <link rel="stylesheet" href="/css/styles-contacto.css">
+    <link rel="stylesheet" href="/css/styles-solicitud.css">
+    <title>Solicitud de Servicio</title>
+</head>
+<body>
+    <header>
+        <h1>Solicitud de Servicio</h1>
+        <nav>
+            <ul>
+                <li><a href="/html/main.html">Inicio</a></li>
+                <li><a href="/css/styles-nuestra-tienda.css">Nuestra Tienda On-line</a></li>
+                <li><a href="/html/servicios.html">Servicios</a></li>
+                <li><a href="/html/contacto.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="solicitud">
+        <h2>Complete el formulario de solicitud de servicio:</h2>
+        <form id="solicitud-form">
+            <label for="nombres">Nombres y Apellidos del cliente:</label>
+            <input type="text" id="nombres" name="nombres" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="celular">Número de celular:</label>
+            <input type="tel" id="celular" name="celular" pattern="[0-9]+" required>
+
+            <label for="servicio">Servicio que solicita:</label>
+            <select id="servicio" name="servicio" required>
+                <option value="">Seleccionar servicio</option>
+                <option value="Personalización">Personalización</option>
+                <option value="Pedido Mayorista">Pedido Mayorista</option>
+                <option value="Devolución">Devolución</option>
+            </select>
+
+            <div id="formulario-botones">
+                <button type="button" id="enviar">Enviar datos</button>
+            <a href="main.html"><button type="button" class="cancel-button">Cancelar</button></a>
+            </div>
+        </form>
+
+        <div id="resultados">
+            <!-- Aquí se mostrarán los resultados del formulario -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Ropa Deportiva</p>
+    </footer>
+
+    <script src="/Js/solicitud-script.js"></script>
+</body>
+</html>

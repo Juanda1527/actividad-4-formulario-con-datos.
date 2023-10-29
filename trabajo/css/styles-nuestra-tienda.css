@@ -1,0 +1,21 @@
+/* Estilos para la página "Nuestra Tienda On-line" */
+#nuestra-tienda {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenido de "Nuestra Tienda On-line" */
+#nuestra-tienda h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#nuestra-tienda p {
+    color: #666;
+}
+
